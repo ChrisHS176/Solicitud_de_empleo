@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('fondo2.png') center/cover no-repeat fixed;
+}
+
+body > table {
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h1, h2 {
+color: #000000;
+text-align: center;
+}
+
+input, textarea {
+border: 1px;
+outline: 1px;
+width: 270px;
+}
+
+.field {
+border: solid 1px #ccc;
+padding: 10px;
+}
+
+.field:focus {
+border-color: #2a2a2a;
+}
+
+.center-content {
+text-align: center;
+}
+
+legend {
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+form {
+border-radius: 3px;
+position: relative;
+width: 300px;
+color: #000000;
+font-size: 10px;
+margin: 0 auto;
+padding: 20px;
+background-color: white;
+}
+
+.btn {
+border-radius: 2px;
+display: inline-block;
+padding: 17px;
+text-decoration: none;
+text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-green {
+color: white;
+background-color: #2a2a2a;
+}
+
+.btn-green:hover {
+background-color: gray;
+}
+
+.btn-green:active {
+background-color: #E5E9E9;
+}
+
+.cover {
+object-fit: cover;
+}
+
+/* Pie */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 1;
+}
+
+.footer p {
+    margin: 0 0 10px 0;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.github-link:hover {
+    opacity: 0.8;
+}
+
+.github-link svg {
+    vertical-align: middle;
+}
